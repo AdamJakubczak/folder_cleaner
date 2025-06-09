@@ -16,11 +16,9 @@ if DRY_RUN:
 start_time = datetime.datetime.now()
 logger.info(f'Starting script at {start_time}')
 
-# Paths
-SOURCE_DIR = '//zeus/PrzekierowaneFoldery$/a.jakubczak/Desktop/Adam workfolder/ISO'
-DEST_DIR = '//zeus/PrzekierowaneFoldery$/a.jakubczak/Desktop/Adam workfolder/backup'
-
-# Cutoff date
+# Paths + date cutoff
+SOURCE_DIR = ''
+DEST_DIR = ''
 CUTOFF_DATE = datetime.datetime(2025, 1, 1) #YYYY, MM, DD
 
 # Create list of items that will be moved
